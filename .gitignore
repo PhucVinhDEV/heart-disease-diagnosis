@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Data & Models (too large for Git)
+# Keep models folder structure but ignore .pkl files
+*.pkl
+*.joblib
+
+# Logs
+logs/*.log
+logs/*.pid
+*.log
+
+# Experiments
+experiments/logs/
+experiments/optimized_params/
+experiments/results/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Temporary files
+*.tmp
+.cache/

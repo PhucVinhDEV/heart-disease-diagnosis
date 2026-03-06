@@ -1,0 +1,282 @@
+[
+  {
+    "patient_id": "P20250930135704",
+    "timestamp": "2025-09-30 13:57:04",
+    "patient_data": {
+      "age": 65,
+      "sex": 1,
+      "cp": 1,
+      "trestbps": 160,
+      "chol": 300,
+      "fbs": 1,
+      "restecg": 2,
+      "thalach": 120,
+      "exang": 1,
+      "oldpeak": 3.0,
+      "slope": 3,
+      "ca": 3,
+      "thal": 7
+    },
+    "predictions": [
+      {
+        "Model": "Logistic Regression",
+        "Prediction": "High Risk",
+        "Confidence": 0.7411059678307076
+      },
+      {
+        "Model": "Random Forest",
+        "Prediction": "High Risk",
+        "Confidence": 0.7209793931162112
+      },
+      {
+        "Model": "K-Nearest Neighbors",
+        "Prediction": "High Risk",
+        "Confidence": 0.5333333333333333
+      },
+      {
+        "Model": "Decision Tree",
+        "Prediction": "Low Risk",
+        "Confidence": 0.8333333333333334
+      },
+      {
+        "Model": "Naive Bayes",
+        "Prediction": "High Risk",
+        "Confidence": 1.0
+      },
+      {
+        "Model": "SVM",
+        "Prediction": "High Risk",
+        "Confidence": 0.9287893855013879
+      }
+    ],
+    "final_verdict": "Heart Disease"
+  },
+  {
+    "patient_id": "P20250930143043",
+    "timestamp": "2025-09-30 14:30:43",
+    "patient_data": {
+      "age": 50,
+      "sex": 0,
+      "cp": 3,
+      "trestbps": 130,
+      "chol": 220,
+      "fbs": 0,
+      "restecg": 0,
+      "thalach": 160,
+      "exang": 0,
+      "oldpeak": 0.5,
+      "slope": 1,
+      "ca": 0,
+      "thal": 3
+    },
+    "predictions": [
+      {
+        "Model": "Logistic Regression",
+        "Prediction": "Low Risk",
+        "Confidence": 0.9269736938421048
+      },
+      {
+        "Model": "Random Forest",
+        "Prediction": "Low Risk",
+        "Confidence": 0.9534289965809373
+      },
+      {
+        "Model": "K-Nearest Neighbors",
+        "Prediction": "Low Risk",
+        "Confidence": 1.0
+      },
+      {
+        "Model": "Decision Tree",
+        "Prediction": "Low Risk",
+        "Confidence": 1.0
+      },
+      {
+        "Model": "Naive Bayes",
+        "Prediction": "Low Risk",
+        "Confidence": 0.9998881656105394
+      },
+      {
+        "Model": "SVM",
+        "Prediction": "Low Risk",
+        "Confidence": 0.9747569273184821
+      }
+    ],
+    "final_verdict": "No Heart Disease"
+  },
+  {
+    "patient_id": "P20250930143054",
+    "timestamp": "2025-09-30 14:30:54",
+    "patient_data": {
+      "age": 60,
+      "sex": 1,
+      "cp": 2,
+      "trestbps": 140,
+      "chol": 250,
+      "fbs": 1,
+      "restecg": 1,
+      "thalach": 140,
+      "exang": 0,
+      "oldpeak": 1.5,
+      "slope": 2,
+      "ca": 1,
+      "thal": 6
+    },
+    "predictions": [
+      {
+        "Model": "Logistic Regression",
+        "Prediction": "High Risk",
+        "Confidence": 0.5731038878557089
+      },
+      {
+        "Model": "Random Forest",
+        "Prediction": "High Risk",
+        "Confidence": 0.5346890655982106
+      },
+      {
+        "Model": "K-Nearest Neighbors",
+        "Prediction": "High Risk",
+        "Confidence": 0.5333333333333333
+      },
+      {
+        "Model": "Decision Tree",
+        "Prediction": "High Risk",
+        "Confidence": 0.5714285714285714
+      },
+      {
+        "Model": "Naive Bayes",
+        "Prediction": "Low Risk",
+        "Confidence": 0.668349155553425
+      },
+      {
+        "Model": "SVM",
+        "Prediction": "Low Risk",
+        "Confidence": 0.48943016791092697
+      }
+    ],
+    "final_verdict": "Heart Disease"
+  },
+  {
+    "patient_id": "Huy",
+    "timestamp": "2025-09-30 15:09:54",
+    "patient_data": {
+      "age": 50,
+      "sex": 1,
+      "cp": 4,
+      "trestbps": 120,
+      "chol": 200,
+      "fbs": 0,
+      "restecg": 0,
+      "thalach": 150,
+      "exang": 0,
+      "oldpeak": 1.0,
+      "slope": 1,
+      "ca": 0,
+      "thal": 3
+    },
+    "predictions": [
+      {
+        "Model": "Logistic Regression",
+        "Prediction": "Low Risk",
+        "Confidence": 0.6237932523888816
+      },
+      {
+        "Model": "Random Forest",
+        "Prediction": "Low Risk",
+        "Confidence": 0.7278751879752118
+      },
+      {
+        "Model": "K-Nearest Neighbors",
+        "Prediction": "Low Risk",
+        "Confidence": 0.8
+      },
+      {
+        "Model": "Decision Tree",
+        "Prediction": "Low Risk",
+        "Confidence": 1.0
+      },
+      {
+        "Model": "Gradient Boosting",
+        "Prediction": "High Risk",
+        "Confidence": 0.9140060722809946
+      },
+      {
+        "Model": "Naive Bayes",
+        "Prediction": "Low Risk",
+        "Confidence": 0.9737101946349115
+      },
+      {
+        "Model": "SVM",
+        "Prediction": "Low Risk",
+        "Confidence": 0.7828911144705563
+      },
+      {
+        "Model": "Ensemble",
+        "Prediction": "High Risk",
+        "Confidence": 0.5901880602079678
+      }
+    ],
+    "final_verdict": "No Heart Disease"
+  },
+  {
+    "patient_id": "P20250930181852",
+    "timestamp": "2025-09-30 18:18:52",
+    "patient_data": {
+      "age": 50,
+      "sex": 1,
+      "cp": 4,
+      "trestbps": 120,
+      "chol": 200,
+      "fbs": 0,
+      "restecg": 0,
+      "thalach": 150,
+      "exang": 0,
+      "oldpeak": 1.0,
+      "slope": 1,
+      "ca": 0,
+      "thal": 3
+    },
+    "predictions": [
+      {
+        "Model": "Logistic Regression",
+        "Prediction": "Low Risk",
+        "Confidence": 0.6237932523888816
+      },
+      {
+        "Model": "Random Forest",
+        "Prediction": "Low Risk",
+        "Confidence": 0.7278751879752118
+      },
+      {
+        "Model": "K-Nearest Neighbors",
+        "Prediction": "Low Risk",
+        "Confidence": 0.8
+      },
+      {
+        "Model": "Decision Tree",
+        "Prediction": "Low Risk",
+        "Confidence": 1.0
+      },
+      {
+        "Model": "Gradient Boosting",
+        "Prediction": "High Risk",
+        "Confidence": 0.9140060722809946
+      },
+      {
+        "Model": "Naive Bayes",
+        "Prediction": "Low Risk",
+        "Confidence": 0.9737101946349115
+      },
+      {
+        "Model": "SVM",
+        "Prediction": "Low Risk",
+        "Confidence": 0.7828911144705593
+      },
+      {
+        "Model": "Ensemble",
+        "Prediction": "High Risk",
+        "Confidence": 0.5901880602079564
+      }
+    ],
+    "final_verdict": "No Heart Disease"
+  }
+]

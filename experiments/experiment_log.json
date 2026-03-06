@@ -1,0 +1,812 @@
+[
+  {
+    "experiment_id": 1,
+    "timestamp": "2025-09-30 15:30:26",
+    "model_name": "lr",
+    "dataset_type": "raw",
+    "hyperparameters": {
+      "C": 2.401994169903322,
+      "penalty": "l1",
+      "solver": "liblinear",
+      "max_iter": 441
+    },
+    "metrics": {
+      "f1": 0.8294929958045936
+    },
+    "training_time": null,
+    "additional_info": {
+      "optimization": "optuna",
+      "n_trials": 50
+    }
+  },
+  {
+    "experiment_id": 2,
+    "timestamp": "2025-09-30 15:30:33",
+    "model_name": "rf",
+    "dataset_type": "raw",
+    "hyperparameters": {
+      "n_estimators": 192,
+      "max_depth": 3,
+      "min_samples_split": 9,
+      "min_samples_leaf": 8,
+      "max_features": "sqrt"
+    },
+    "metrics": {
+      "f1": 0.8290333340453561
+    },
+    "training_time": null,
+    "additional_info": {
+      "optimization": "optuna",
+      "n_trials": 50
+    }
+  },
+  {
+    "experiment_id": 3,
+    "timestamp": "2025-09-30 15:30:34",
+    "model_name": "knn",
+    "dataset_type": "raw",
+    "hyperparameters": {
+      "n_neighbors": 10,
+      "weights": "distance",
+      "metric": "minkowski",
+      "p": 1
+    },
+    "metrics": {
+      "f1": 0.8165342022643376
+    },
+    "training_time": null,
+    "additional_info": {
+      "optimization": "optuna",
+      "n_trials": 50
+    }
+  },
+  {
+    "experiment_id": 4,
+    "timestamp": "2025-09-30 15:30:35",
+    "model_name": "dt",
+    "dataset_type": "raw",
+    "hyperparameters": {
+      "max_depth": 7,
+      "min_samples_split": 7,
+      "min_samples_leaf": 8,
+      "criterion": "gini"
+    },
+    "metrics": {
+      "f1": 0.7793191775703098
+    },
+    "training_time": null,
+    "additional_info": {
+      "optimization": "optuna",
+      "n_trials": 50
+    }
+  },
+  {
+    "experiment_id": 5,
+    "timestamp": "2025-09-30 15:30:41",
+    "model_name": "gb",
+    "dataset_type": "raw",
+    "hyperparameters": {
+      "n_estimators": 299,
+      "learning_rate": 0.01257420576158871,
+      "max_depth": 4,
+      "min_samples_split": 4,
+      "min_samples_leaf": 9,
+      "subsample": 0.6177682253125681
+    },
+    "metrics": {
+      "f1": 0.8210346281813949
+    },
+    "training_time": null,
+    "additional_info": {
+      "optimization": "optuna",
+      "n_trials": 50
+    }
+  },
+  {
+    "experiment_id": 6,
+    "timestamp": "2025-09-30 15:30:43",
+    "model_name": "xgb",
+    "dataset_type": "raw",
+    "hyperparameters": {
+      "n_estimators": 238,
+      "learning_rate": 0.02160182478674705,
+      "max_depth": 3,
+      "min_child_weight": 8,
+      "subsample": 0.9539158663227072,
+      "colsample_bytree": 0.7348204560584484,
+      "gamma": 2.58957086020504
+    },
+    "metrics": {
+      "f1": 0.8346391383727167
+    },
+    "training_time": null,
+    "additional_info": {
+      "optimization": "optuna",
+      "n_trials": 50
+    }
+  },
+  {
+    "experiment_id": 7,
+    "timestamp": "2025-09-30 15:30:43",
+    "model_name": "nb",
+    "dataset_type": "raw",
+    "hyperparameters": {
+      "var_smoothing": 1.4162880913254226e-09
+    },
+    "metrics": {
+      "f1": 0.8296653540056352
+    },
+    "training_time": null,
+    "additional_info": {
+      "optimization": "optuna",
+      "n_trials": 50
+    }
+  },
+  {
+    "experiment_id": 8,
+    "timestamp": "2025-09-30 15:30:44",
+    "model_name": "svm",
+    "dataset_type": "raw",
+    "hyperparameters": {
+      "C": 3.0733581669955576,
+      "kernel": "linear",
+      "gamma": "scale"
+    },
+    "metrics": {
+      "f1": 0.8335492246588074
+    },
+    "training_time": null,
+    "additional_info": {
+      "optimization": "optuna",
+      "n_trials": 50
+    }
+  },
+  {
+    "experiment_id": 9,
+    "timestamp": "2025-09-30 15:30:45",
+    "model_name": "lr",
+    "dataset_type": "fe",
+    "hyperparameters": {
+      "C": 0.9902753583876713,
+      "penalty": "l1",
+      "solver": "saga",
+      "max_iter": 381
+    },
+    "metrics": {
+      "f1": 0.8464251823061012
+    },
+    "training_time": null,
+    "additional_info": {
+      "optimization": "optuna",
+      "n_trials": 50
+    }
+  },
+  {
+    "experiment_id": 10,
+    "timestamp": "2025-09-30 15:30:50",
+    "model_name": "rf",
+    "dataset_type": "fe",
+    "hyperparameters": {
+      "n_estimators": 80,
+      "max_depth": 7,
+      "min_samples_split": 4,
+      "min_samples_leaf": 3,
+      "max_features": "sqrt"
+    },
+    "metrics": {
+      "f1": 0.8206243571211222
+    },
+    "training_time": null,
+    "additional_info": {
+      "optimization": "optuna",
+      "n_trials": 50
+    }
+  },
+  {
+    "experiment_id": 11,
+    "timestamp": "2025-09-30 15:30:51",
+    "model_name": "knn",
+    "dataset_type": "fe",
+    "hyperparameters": {
+      "n_neighbors": 20,
+      "weights": "uniform",
+      "metric": "euclidean",
+      "p": 1
+    },
+    "metrics": {
+      "f1": 0.8325721588929914
+    },
+    "training_time": null,
+    "additional_info": {
+      "optimization": "optuna",
+      "n_trials": 50
+    }
+  },
+  {
+    "experiment_id": 12,
+    "timestamp": "2025-09-30 15:30:52",
+    "model_name": "dt",
+    "dataset_type": "fe",
+    "hyperparameters": {
+      "max_depth": 15,
+      "min_samples_split": 16,
+      "min_samples_leaf": 8,
+      "criterion": "gini"
+    },
+    "metrics": {
+      "f1": 0.7651420943916826
+    },
+    "training_time": null,
+    "additional_info": {
+      "optimization": "optuna",
+      "n_trials": 50
+    }
+  },
+  {
+    "experiment_id": 13,
+    "timestamp": "2025-09-30 15:30:57",
+    "model_name": "gb",
+    "dataset_type": "fe",
+    "hyperparameters": {
+      "n_estimators": 50,
+      "learning_rate": 0.014125058875594553,
+      "max_depth": 6,
+      "min_samples_split": 4,
+      "min_samples_leaf": 4,
+      "subsample": 0.6714901691730049
+    },
+    "metrics": {
+      "f1": 0.8247530516008883
+    },
+    "training_time": null,
+    "additional_info": {
+      "optimization": "optuna",
+      "n_trials": 50
+    }
+  },
+  {
+    "experiment_id": 14,
+    "timestamp": "2025-09-30 15:30:59",
+    "model_name": "xgb",
+    "dataset_type": "fe",
+    "hyperparameters": {
+      "n_estimators": 104,
+      "learning_rate": 0.24215911506427346,
+      "max_depth": 4,
+      "min_child_weight": 4,
+      "subsample": 0.7330783666724676,
+      "colsample_bytree": 0.6783022817195856,
+      "gamma": 4.6914613712508
+    },
+    "metrics": {
+      "f1": 0.8429189339165533
+    },
+    "training_time": null,
+    "additional_info": {
+      "optimization": "optuna",
+      "n_trials": 50
+    }
+  },
+  {
+    "experiment_id": 15,
+    "timestamp": "2025-09-30 15:30:59",
+    "model_name": "nb",
+    "dataset_type": "fe",
+    "hyperparameters": {
+      "var_smoothing": 3.330219061107102e-07
+    },
+    "metrics": {
+      "f1": 0.8257711550228557
+    },
+    "training_time": null,
+    "additional_info": {
+      "optimization": "optuna",
+      "n_trials": 50
+    }
+  },
+  {
+    "experiment_id": 16,
+    "timestamp": "2025-09-30 15:31:00",
+    "model_name": "svm",
+    "dataset_type": "fe",
+    "hyperparameters": {
+      "C": 0.45935749034222706,
+      "kernel": "linear",
+      "gamma": "auto"
+    },
+    "metrics": {
+      "f1": 0.8376784982161924
+    },
+    "training_time": null,
+    "additional_info": {
+      "optimization": "optuna",
+      "n_trials": 50
+    }
+  },
+  {
+    "experiment_id": 17,
+    "timestamp": "2025-09-30 15:31:01",
+    "model_name": "lr",
+    "dataset_type": "dt",
+    "hyperparameters": {
+      "C": 0.8210432129758696,
+      "penalty": "l2",
+      "solver": "liblinear",
+      "max_iter": 177
+    },
+    "metrics": {
+      "f1": 0.8338510837214328
+    },
+    "training_time": null,
+    "additional_info": {
+      "optimization": "optuna",
+      "n_trials": 50
+    }
+  },
+  {
+    "experiment_id": 18,
+    "timestamp": "2025-09-30 15:31:07",
+    "model_name": "rf",
+    "dataset_type": "dt",
+    "hyperparameters": {
+      "n_estimators": 99,
+      "max_depth": 8,
+      "min_samples_split": 10,
+      "min_samples_leaf": 1,
+      "max_features": "log2"
+    },
+    "metrics": {
+      "f1": 0.8253283782780475
+    },
+    "training_time": null,
+    "additional_info": {
+      "optimization": "optuna",
+      "n_trials": 50
+    }
+  },
+  {
+    "experiment_id": 19,
+    "timestamp": "2025-09-30 15:31:08",
+    "model_name": "knn",
+    "dataset_type": "dt",
+    "hyperparameters": {
+      "n_neighbors": 23,
+      "weights": "distance",
+      "metric": "manhattan",
+      "p": 1
+    },
+    "metrics": {
+      "f1": 0.8326673795308797
+    },
+    "training_time": null,
+    "additional_info": {
+      "optimization": "optuna",
+      "n_trials": 50
+    }
+  },
+  {
+    "experiment_id": 20,
+    "timestamp": "2025-09-30 15:31:08",
+    "model_name": "dt",
+    "dataset_type": "dt",
+    "hyperparameters": {
+      "max_depth": 4,
+      "min_samples_split": 4,
+      "min_samples_leaf": 8,
+      "criterion": "gini"
+    },
+    "metrics": {
+      "f1": 0.7836107376726116
+    },
+    "training_time": null,
+    "additional_info": {
+      "optimization": "optuna",
+      "n_trials": 50
+    }
+  },
+  {
+    "experiment_id": 21,
+    "timestamp": "2025-09-30 15:31:13",
+    "model_name": "gb",
+    "dataset_type": "dt",
+    "hyperparameters": {
+      "n_estimators": 106,
+      "learning_rate": 0.010055861916846482,
+      "max_depth": 6,
+      "min_samples_split": 18,
+      "min_samples_leaf": 10,
+      "subsample": 0.7030344910356018
+    },
+    "metrics": {
+      "f1": 0.8247530516008883
+    },
+    "training_time": null,
+    "additional_info": {
+      "optimization": "optuna",
+      "n_trials": 50
+    }
+  },
+  {
+    "experiment_id": 22,
+    "timestamp": "2025-09-30 15:31:15",
+    "model_name": "xgb",
+    "dataset_type": "dt",
+    "hyperparameters": {
+      "n_estimators": 92,
+      "learning_rate": 0.2413384378855008,
+      "max_depth": 4,
+      "min_child_weight": 8,
+      "subsample": 0.7778728101025392,
+      "colsample_bytree": 0.622816080733225,
+      "gamma": 0.9142412328221303
+    },
+    "metrics": {
+      "f1": 0.8430041830396755
+    },
+    "training_time": null,
+    "additional_info": {
+      "optimization": "optuna",
+      "n_trials": 50
+    }
+  },
+  {
+    "experiment_id": 23,
+    "timestamp": "2025-09-30 15:31:15",
+    "model_name": "nb",
+    "dataset_type": "dt",
+    "hyperparameters": {
+      "var_smoothing": 1.016188026228947e-09
+    },
+    "metrics": {
+      "f1": 0.8296412512458481
+    },
+    "training_time": null,
+    "additional_info": {
+      "optimization": "optuna",
+      "n_trials": 50
+    }
+  },
+  {
+    "experiment_id": 24,
+    "timestamp": "2025-09-30 15:31:16",
+    "model_name": "svm",
+    "dataset_type": "dt",
+    "hyperparameters": {
+      "C": 0.3490128345140555,
+      "kernel": "linear",
+      "gamma": "scale"
+    },
+    "metrics": {
+      "f1": 0.8379482553449582
+    },
+    "training_time": null,
+    "additional_info": {
+      "optimization": "optuna",
+      "n_trials": 50
+    }
+  },
+  {
+    "experiment_id": 25,
+    "timestamp": "2025-09-30 15:31:17",
+    "model_name": "lr",
+    "dataset_type": "fe_dt",
+    "hyperparameters": {
+      "C": 1.6322758854570414,
+      "penalty": "l2",
+      "solver": "liblinear",
+      "max_iter": 842
+    },
+    "metrics": {
+      "f1": 0.8252429134231856
+    },
+    "training_time": null,
+    "additional_info": {
+      "optimization": "optuna",
+      "n_trials": 50
+    }
+  },
+  {
+    "experiment_id": 26,
+    "timestamp": "2025-09-30 15:31:24",
+    "model_name": "rf",
+    "dataset_type": "fe_dt",
+    "hyperparameters": {
+      "n_estimators": 206,
+      "max_depth": 9,
+      "min_samples_split": 2,
+      "min_samples_leaf": 4,
+      "max_features": "sqrt"
+    },
+    "metrics": {
+      "f1": 0.8127990900716793
+    },
+    "training_time": null,
+    "additional_info": {
+      "optimization": "optuna",
+      "n_trials": 50
+    }
+  },
+  {
+    "experiment_id": 27,
+    "timestamp": "2025-09-30 15:31:25",
+    "model_name": "knn",
+    "dataset_type": "fe_dt",
+    "hyperparameters": {
+      "n_neighbors": 20,
+      "weights": "distance",
+      "metric": "minkowski",
+      "p": 1
+    },
+    "metrics": {
+      "f1": 0.8117908821767772
+    },
+    "training_time": null,
+    "additional_info": {
+      "optimization": "optuna",
+      "n_trials": 50
+    }
+  },
+  {
+    "experiment_id": 28,
+    "timestamp": "2025-09-30 15:31:26",
+    "model_name": "dt",
+    "dataset_type": "fe_dt",
+    "hyperparameters": {
+      "max_depth": 5,
+      "min_samples_split": 17,
+      "min_samples_leaf": 9,
+      "criterion": "gini"
+    },
+    "metrics": {
+      "f1": 0.7965655810274207
+    },
+    "training_time": null,
+    "additional_info": {
+      "optimization": "optuna",
+      "n_trials": 50
+    }
+  },
+  {
+    "experiment_id": 29,
+    "timestamp": "2025-09-30 15:31:32",
+    "model_name": "gb",
+    "dataset_type": "fe_dt",
+    "hyperparameters": {
+      "n_estimators": 200,
+      "learning_rate": 0.025722195039054808,
+      "max_depth": 5,
+      "min_samples_split": 11,
+      "min_samples_leaf": 2,
+      "subsample": 0.9909831723306237
+    },
+    "metrics": {
+      "f1": 0.8175536412493635
+    },
+    "training_time": null,
+    "additional_info": {
+      "optimization": "optuna",
+      "n_trials": 50
+    }
+  },
+  {
+    "experiment_id": 30,
+    "timestamp": "2025-09-30 15:31:33",
+    "model_name": "xgb",
+    "dataset_type": "fe_dt",
+    "hyperparameters": {
+      "n_estimators": 139,
+      "learning_rate": 0.0521504247603303,
+      "max_depth": 7,
+      "min_child_weight": 10,
+      "subsample": 0.9707235351548666,
+      "colsample_bytree": 0.7199706045873393,
+      "gamma": 0.9621228388871459
+    },
+    "metrics": {
+      "f1": 0.826469032148929
+    },
+    "training_time": null,
+    "additional_info": {
+      "optimization": "optuna",
+      "n_trials": 50
+    }
+  },
+  {
+    "experiment_id": 31,
+    "timestamp": "2025-09-30 15:31:34",
+    "model_name": "nb",
+    "dataset_type": "fe_dt",
+    "hyperparameters": {
+      "var_smoothing": 5.474937730969415e-06
+    },
+    "metrics": {
+      "f1": 0.7884439578491005
+    },
+    "training_time": null,
+    "additional_info": {
+      "optimization": "optuna",
+      "n_trials": 50
+    }
+  },
+  {
+    "experiment_id": 32,
+    "timestamp": "2025-09-30 15:31:35",
+    "model_name": "svm",
+    "dataset_type": "fe_dt",
+    "hyperparameters": {
+      "C": 5.52768156011076,
+      "kernel": "linear",
+      "gamma": "auto"
+    },
+    "metrics": {
+      "f1": 0.8373987907329912
+    },
+    "training_time": null,
+    "additional_info": {
+      "optimization": "optuna",
+      "n_trials": 50
+    }
+  },
+  {
+    "experiment_id": 33,
+    "timestamp": "2025-09-30 15:31:36",
+    "model_name": "lr",
+    "dataset_type": "master_boruta",
+    "hyperparameters": {
+      "C": 1.4836878383935308,
+      "penalty": "l1",
+      "solver": "liblinear",
+      "max_iter": 236
+    },
+    "metrics": {
+      "f1": 0.825618288487877
+    },
+    "training_time": null,
+    "additional_info": {
+      "optimization": "optuna",
+      "n_trials": 50
+    }
+  },
+  {
+    "experiment_id": 34,
+    "timestamp": "2025-09-30 15:31:42",
+    "model_name": "rf",
+    "dataset_type": "master_boruta",
+    "hyperparameters": {
+      "n_estimators": 158,
+      "max_depth": 14,
+      "min_samples_split": 11,
+      "min_samples_leaf": 7,
+      "max_features": null
+    },
+    "metrics": {
+      "f1": 0.8255214275956195
+    },
+    "training_time": null,
+    "additional_info": {
+      "optimization": "optuna",
+      "n_trials": 50
+    }
+  },
+  {
+    "experiment_id": 35,
+    "timestamp": "2025-09-30 15:31:42",
+    "model_name": "knn",
+    "dataset_type": "master_boruta",
+    "hyperparameters": {
+      "n_neighbors": 8,
+      "weights": "uniform",
+      "metric": "manhattan",
+      "p": 1
+    },
+    "metrics": {
+      "f1": 0.8288163346688977
+    },
+    "training_time": null,
+    "additional_info": {
+      "optimization": "optuna",
+      "n_trials": 50
+    }
+  },
+  {
+    "experiment_id": 36,
+    "timestamp": "2025-09-30 15:31:43",
+    "model_name": "dt",
+    "dataset_type": "master_boruta",
+    "hyperparameters": {
+      "max_depth": 3,
+      "min_samples_split": 6,
+      "min_samples_leaf": 8,
+      "criterion": "gini"
+    },
+    "metrics": {
+      "f1": 0.8292412489903412
+    },
+    "training_time": null,
+    "additional_info": {
+      "optimization": "optuna",
+      "n_trials": 50
+    }
+  },
+  {
+    "experiment_id": 37,
+    "timestamp": "2025-09-30 15:31:49",
+    "model_name": "gb",
+    "dataset_type": "master_boruta",
+    "hyperparameters": {
+      "n_estimators": 159,
+      "learning_rate": 0.01652029822983385,
+      "max_depth": 10,
+      "min_samples_split": 18,
+      "min_samples_leaf": 9,
+      "subsample": 0.7014501811946297
+    },
+    "metrics": {
+      "f1": 0.816793514912552
+    },
+    "training_time": null,
+    "additional_info": {
+      "optimization": "optuna",
+      "n_trials": 50
+    }
+  },
+  {
+    "experiment_id": 38,
+    "timestamp": "2025-09-30 15:31:51",
+    "model_name": "xgb",
+    "dataset_type": "master_boruta",
+    "hyperparameters": {
+      "n_estimators": 236,
+      "learning_rate": 0.05389090101762862,
+      "max_depth": 6,
+      "min_child_weight": 7,
+      "subsample": 0.7536372020062359,
+      "colsample_bytree": 0.6222276788298737,
+      "gamma": 4.041316672509327
+    },
+    "metrics": {
+      "f1": 0.8429337380498998
+    },
+    "training_time": null,
+    "additional_info": {
+      "optimization": "optuna",
+      "n_trials": 50
+    }
+  },
+  {
+    "experiment_id": 39,
+    "timestamp": "2025-09-30 15:31:51",
+    "model_name": "nb",
+    "dataset_type": "master_boruta",
+    "hyperparameters": {
+      "var_smoothing": 4.456838579802179e-07
+    },
+    "metrics": {
+      "f1": 0.81795431304168
+    },
+    "training_time": null,
+    "additional_info": {
+      "optimization": "optuna",
+      "n_trials": 50
+    }
+  },
+  {
+    "experiment_id": 40,
+    "timestamp": "2025-09-30 15:31:52",
+    "model_name": "svm",
+    "dataset_type": "master_boruta",
+    "hyperparameters": {
+      "C": 0.6466795226487292,
+      "kernel": "linear",
+      "gamma": "auto"
+    },
+    "metrics": {
+      "f1": 0.8296130242676567
+    },
+    "training_time": null,
+    "additional_info": {
+      "optimization": "optuna",
+      "n_trials": 50
+    }
+  }
+]

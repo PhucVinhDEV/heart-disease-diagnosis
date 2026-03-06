@@ -1,0 +1,19 @@
+{
+  "model": "gb",
+  "dataset": "UCI_Heart_Cleveland",
+  "imbalance": "none",
+  "cv_metric": "roc_auc",
+  "cv_score": 0.9032859250250557,
+  "feature_engineering": "basic",
+  "scaler": "standard",
+  "feature_selection": "kbest_mi",
+  "paths": {
+    "dir": "packs/gb_20251012-173434_10542204",
+    "model": "packs/gb_20251012-173434_10542204/model.joblib",
+    "X_background": "packs/gb_20251012-173434_10542204/X_bg.csv",
+    "X_test": "packs/gb_20251012-173434_10542204/X_test.csv",
+    "y_test": "packs/gb_20251012-173434_10542204/y_test.csv",
+    "predictions": "packs/gb_20251012-173434_10542204/preds.csv",
+    "meta": "packs/gb_20251012-173434_10542204/meta.json"
+  }
+}

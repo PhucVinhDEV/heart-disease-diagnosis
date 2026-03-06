@@ -1,0 +1,15 @@
+venv/
+__pycache__/
+*.py[cod]
+.git/
+.gitignore
+.ipynb_checkpoints/
+notebooks/
+*.ipynb
+experiments/logs/
+experiments/results/
+experiments/optimized_params/
+.vscode/
+.idea/
+*.log
+*.tmp
